@@ -2,6 +2,16 @@
 // Use this editor to write, compile and run your Java code online
 
 class Main {
+
+    /* Basic Recursion function that works :)  */
+    public static int fibonacci(int i, int j){
+        if(i > 50){
+            return 0;
+        }
+        System.out.println(i);
+        return fibonacci(j, i+j);
+    }
+    
     public static void main(String[] args) {
         System.out.println("Try programiz.pro");
         int i = 0;
